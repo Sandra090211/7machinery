@@ -281,19 +281,18 @@ ul ul li {
 
 /* Contenedor para centrar el video horizontalmente */
 .video-container {
-    text-align: center;  /* Centrado horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .presentacion {
-    width: 600px;           /* Limita el ancho del video */
-    margin-top: 10px;     /* Ajusta el espacio desde la parte superior */
-    margin-bottom: 20px;    /* Opcional, espacio desde abajo */
-    max-width: 100%;        /* Hace que el video sea adaptable al tamaño de la pantalla */
-    display: block;         /* Hace que el video se comporte como un bloque */
-    margin-left: auto;      /* Centra el video horizontalmente */
-    margin-right: auto;     /* Centra el video horizontalmente */
-    border-radius: 8px;     /* Redondea las esquinas del video */
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
 }
+
 
 /* Efecto Parallax */
 .parallax {
