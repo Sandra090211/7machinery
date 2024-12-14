@@ -296,9 +296,9 @@ ul ul li {
 .video-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 20px; /* Espacio entre los videos */
+    gap: 8px; /* Espacio entre los videos */
     justify-content: center; /* Centrar horizontalmente el grid */
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 /* Estilo para los videos */
