@@ -293,19 +293,21 @@ ul ul li {
     height: 600px;
 }
 
-.video-grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 8px; /* Espacio entre los videos */
-    justify-content: center; /* Centrar horizontalmente el grid */
-    margin: 20px 20px;
-}
-
-/* Estilo para los videos */
 .video-grid-item {
     width: 100%;
     max-width: 500px; /* Ancho máximo de cada video */
     height: 300px; /* Altura fija para los videos */
+    margin: 0 auto; /* Centra los videos horizontalmente */
+}
+
+/* Contenedor para alinear los videos en una cuadrícula */
+.video-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre los videos */
+    justify-items: center; /* Centra los videos dentro del contenedor de la cuadrícula */
+    align-items: center; /* Centra los videos verticalmente dentro de la cuadrícula */
+    margin: 20px 0;
 }
 
 /* Efecto Parallax */
