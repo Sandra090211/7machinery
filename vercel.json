@@ -1,8 +1,10 @@
 {
-  "rewrites": [
+  "redirects": [
     {
-      "source": "www.7machinery.tech",
-      "destination": "www.7machinery.tech/Ford-scorpII"
+      "source": "/",
+      "destination": "/Ford-scorpII",
+      "permanent": true
     }
   ]
 }
+
