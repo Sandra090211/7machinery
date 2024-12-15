@@ -314,7 +314,7 @@ ul ul li {
 .parallax {
     position: relative; /* Establece el contenedor como relativo para posicionar elementos dentro */
     height: 93vh; /* Ajusta la altura de la sección */
-    background: url('1.jpeg') no-repeat center center / cover;
+    background: url('S.jpeg') no-repeat center center / cover;
     background-attachment: fixed; /* Aquí está el truco del Parallax */
     background-size: cover;
 }
