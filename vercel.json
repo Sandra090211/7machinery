@@ -3,7 +3,7 @@
     {
       "source": "/",
       "destination": "/Ford-scorpII",
-      "permanent": true
+      "statusCode": 301
     }
   ]
 }
