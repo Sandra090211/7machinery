@@ -6,7 +6,7 @@
       "permanent": true
     }
   ]
-  {
+
   "rewrites": [
     {
       "source": "/scorp-ii",
@@ -15,4 +15,3 @@
   ]
 }
 
-}
