@@ -1,9 +1,17 @@
+
 {
   "redirects": [
     {
       "source": "/",
-      "destination": "/Ford-scorpII",
+      "destination": "/Ford-scorpII",   <!-- Redirige la raíz a /scorp-ii -->
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/Ford-scorpII",
+      "destination": "/Ford-scorpII/index.html"  <!-- Asegura que la ruta /scorp-ii apunte al archivo index.html -->
     }
   ]
 }
+
