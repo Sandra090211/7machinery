@@ -6,12 +6,5 @@
       "permanent": true
     }
   ]
-
-  "rewrites": [
-    {
-      "source": "/scorp-ii",
-      "destination": "/scorp-ii/index.html"
-    }
-  ]
 }
 
