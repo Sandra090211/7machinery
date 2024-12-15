@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/scorp-ii",
+      "destination": "/Ford-scorp-ii"
+    }
+  ]
+}
