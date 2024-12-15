@@ -1,1 +1,16 @@
 
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/Ford-scorpII",  
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/Ford-scorpII",
+      "destination": "/Ford-scorpII/index.html" 
+    }
+  ]
+}
