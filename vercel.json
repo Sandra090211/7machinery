@@ -1,9 +1,8 @@
-
 {
   "redirects": [
     {
       "source": "/",
-      "destination": "/Ford-scorpII",  
+      "destination": "/Ford-scorpII",
       "permanent": true
     }
   ]
