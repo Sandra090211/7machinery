@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/Ford-scorp-ii",
+      "source": "https://www.7machinery.tech/",
       "destination": "/Ford-scorp-ii"
     }
   ]
