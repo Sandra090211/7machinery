@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/scorp-ii",
-      "destination": "https://www.7machinery.tech/",
-      "permanent": true
-    }
-  ]
-}
