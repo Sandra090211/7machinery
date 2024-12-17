@@ -331,7 +331,7 @@ ul ul li {
 @media (prefers-color-scheme: dark) {
     body, #main-content, #login-section {
         background-color: #ffffff;
-        color: #ffffff;
+        color: #000;
     }
 }
 
