@@ -326,3 +326,12 @@ ul ul li {
         padding: 10px;
     }
 }
+
+/* Desactiva la detección de tema oscuro */
+@media (prefers-color-scheme: dark) {
+    body, #main-content, #login-section {
+        background-color: #f0f0f0;
+        color: #000;
+    }
+}
+
