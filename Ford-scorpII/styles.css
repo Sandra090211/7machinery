@@ -330,8 +330,8 @@ ul ul li {
 /* Desactiva la detección de tema oscuro */
 @media (prefers-color-scheme: dark) {
     body, #main-content, #login-section {
-        background-color: #f0f0f0;
-        color: #000;
+        background-color: #ffffff;
+        color: #ffffff;
     }
 }
 
