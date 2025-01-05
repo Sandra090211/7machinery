@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>Ford-scorpII</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección de Inicio de Sesión -->
+    <div id="login-section">
+        <h1>Iniciar Sesión</h1>
+        <form id="login-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="button" onclick="login()">Ingresar</button>
+        </form>
+	<footer>
+		<img src="imagenes/firmamail.jpeg" alt="Logo de Seventh Machinery" width="70">
+    		<p>&copy; 2024 Seventh Machinery. Todos los derechos reservados.</p>
+	</footer>
+    </div>
+
+
+    <!-- Página Principal -->
+    <div id="main-content" style="display: none;">
+<div class="parallax">
+        <header>
+            <h1>Manual de Usuario: Sistema de visión SCORP-II</h1>
+        </header>
+</div>
+
+        <!-- Sección de Contenido -->
+<!-- Sección de Contenido -->
+<section>
+    <h2><br></h2>
+    <h3>Objetivo del Manual</h3>
+    <p>El propósito de este manual es brindarle una mejor experiencia al usuario al momento de configurar su sistema de visión por computadora, así como ofrecer soporte para instalación y manipulación.</p>
+    <div class="video-container">
+        <iframe class="presentacion" 
+                src="https://www.youtube.com/embed/9Vru4YEnzCo" 
+                title="Video de presentación"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+            
+            <h3>Descripción General del Sistema</h3>
+            <p>SCORP-II es un sistema inálambrico de visión que incluye una cámara IP. Además, cuenta con una unidad central de procesamiento (CPU) donde se lleva a cabo el análisis del vídeo. El algoritmo funciona de tal manera que el operario debe inspeccionar una parte específica de la carrocería durante un período de tiempo determinado para validar la inspección. Este análisis puede visualizarse en tiempo real en el monitor de la CPU central.
+<img src="imagenes/DescrAntares.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+ <div class="video-container">
+        <iframe class="presentacion" 
+                src="https://www.youtube.com/embed/2Ju7Uy2liuA" 
+                title="Video de presentación"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+</p>
+            
+
+        <section>
+            <h2><br>Modo de empleo</h2>
+
+            <h3>Colocación de equipo</h3>
+            <p>El operador del sistema de grabación debe colocarse, primeramente, el centro de control SCORP-II (que incluye batería y unidad de procesamiento) sobre la cadera y la cámara sobre la cabeza, utilizando la diadema con la que cuenta, como lo muestra el siguiente video.</p>
+
+            <p>La duración de la batería es de aproximadamente 8 horas y utiliza un cargador de carga rápida tipo C.</p>
+
+ <div class="video-container">
+        <iframe class="presentacion" 
+                src="https://www.youtube.com/embed/NcbVbM0ji40" 
+                title="V1"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+            <p>Una vez puesto el equipo, se debe calibrar la cámara pues eso depende de la altura del operador.</p>
+
+<p>Procedemos a encender el centro de procezamiento (dispositivo que se coloca a la altura de la cadera), encendemos la computadora con el software de SCORP-II y conectamos mediante WiFi la cámara para comenzar la inspección.</p>
+
+            <h3>Interfaz de usuario</h3>
+            <p>A continuación le explicamos la interfaz de SCORP-II:<br>
+
+	    <ul>
+	    <li>Lo primero que se ve al ingresar a la página es el inicio de sesión, para el cual deberá ingresar un usuario y contraseña previamente proporcionados</li>
+	    <li>Posteriormente, verá la pantalla que permite calibrar la cámara, una vez calibrada puede comenzar con el arranque del sistema.</li>
+		</ul><br></p>
+    <div class="two-images">
+        <img src="imagenes/F1.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+        <img src="imagenes/F2.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+    </div>
+
+	    <ul>
+	    <li>Al momento de presionar "Iniciar SCORP-II, le aparecerá la siguiente página donde podrá inicar a inspeccionar vehículos.</li>
+	    <img src="imagenes/F3.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+	    <li> Como se muestra en la imagen, con  SCORP-II puede ver el porcentaje de paneles inspeccionados tanto globalmente como por vehículo mediante video en tiempo real.</li></ul>
+
+<!--
+            
+            <h3>Grabación y Almacenamiento de Datos</h3>
+            <p>SCORP-II cuenta con un sistema de registros que muestra la cantidad de autos inspeccionados en una fecha y hora determinados, como lo muestra la siguiente imagen.</p>
+	    <img src="D:\Pagina manual\F4.png" alt="Descripción del Sistema Antares Tech" class="system-image">
+            <p>Las siguientes imágenes muestran resultados :
+	    	<ul>
+	    		<li>Globales</li>
+	    		<li> Por panel</li>
+	    		<li> Individuales</li>
+	    	</ul>
+	    </p>
+	    <img src="D:\Pagina manual\F5.png" alt="Descripción del Sistema Antares Tech" class="system-image">
+
+
+	    <br><p>El proceso de almacenamiento y consulta de los datos recopilados por SCORP-II se muestran en las siguientes imágenes.</p>
+	    <p>En la carpeta "Resultados SCORP-II" se guardan los datos clasificados en:
+	    	<ul>
+	    		<li>Globales</li>
+	    		<li> Por panel</li>
+	    		<li> Individuales</li>
+	    	</ul></p>
+    <div class="two-images">
+        <img src="D:\Pagina manual\D1.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+        <img src="D:\Pagina manual\D2.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+    </div>
+        <img src="D:\Pagina manual\D3.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+
+	    <p>En la carpeta "PyFORD" se guardan los datos:
+	    	<ul>
+	    		<li>Globales</li>
+	    		<li> Por panel</li>
+	    		<li> Individuales</li>
+	    		<li>Tiempo</li>
+	    		<li> Usuarios</li>
+	    		<li> Parámetros de aplicación</li>
+	    	</ul></p>
+    <div class="two-images">
+        <img src="D:\Pagina manual\D4.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+        <img src="D:\Pagina manual\D5.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+    </div>
+    <div class="two-images">
+        <img src="D:\Pagina manual\D6.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+        <img src="D:\Pagina manual\D7.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+    </div>
+        <img src="D:\Pagina manual\D8.jpeg" alt="Descripción del Sistema Antares Tech" class="system-image">
+        </section>
+-->
+
+        <section>
+            <h2><br> Mantenimiento</h2>
+            <p>Si lo que necesita es abrir el dispositivo para reemplazar componentes o meramente inspeccionar, en los siguientes videos le mostramos paso a paso cómo 	    realizarlo adecuadamente</p>
+	    <p>Le sugerimos tener a la mano:
+	    	<ul>
+	    		<li> Desarmador de cruz</li>
+	    		<li> Cuña o alguna pieza plástica delgada y pequeña para hacer palanca</li>
+	    		<li> Dados pequeños</li>
+	    		<li> Pinzas</li>
+	    	</ul></p>
+    <div class="video-grid-container">
+        <iframe class="video-grid-item" 
+                src="https://www.youtube.com/embed/WCe6BuFxeGQ" 
+                title="VM1"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <iframe class="video-grid-item"  
+                src="https://www.youtube.com/embed/hZ36bDweLxw" 
+                title="VM2"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <iframe class="video-grid-item" 
+                src="https://www.youtube.com/embed/RvDWajMUClM" 
+                title="VM3"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+	    </div>
+            <p>Una vez realizado el reemplazo de componentes o inspección, le mostramos cómo volver a armar su SCORP-II en los siguientes videos:</p>
+    <div class="video-grid-container">
+        <iframe class="video-grid-item" 
+                src="https://www.youtube.com/embed/OqjhW5KB1dY" 
+                title="VM4"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <iframe class="video-grid-item" 
+                src="https://www.youtube.com/embed/wI9HPrn5KUU" 
+                title="VM5"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <iframe class="video-grid-item" 
+                src="https://www.youtube.com/embed/V5nim2c9PKQ" 
+                title="VM6"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <iframe class="video-grid-item" 
+                src="https://www.youtube.com/embed/KTum-XhPydY" 
+                title="VM7"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+	    </div>
+ 
+            <h3>Contactos de Soporte</h3>
+            <p>Correo electrónico: irisinsighttechgroup@gmail.com</p>
+            <p>Número telefónico: +52 55 31 00 6267</p>
+        </section>
+
+
+	<footer class="footer-alt">
+		<img src="imagenes/firmamail.jpeg" alt="Logo de Seventh Machinery" width="50">
+    		<p>&copy; 2024 Seventh Machinery. Todos los derechos reservados</p>
+	</footer>
+
+
+    <script>
+        // Función de autenticación básica
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Cambia los valores de usuario y contraseña según lo que necesites
+            const correctUsername = "FRD admin";
+            const correctPassword = "CSAPAssembly";
+
+            if (username === correctUsername && password === correctPassword) {
+                document.getElementById('login-section').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+            } else {
+                alert("Usuario o contraseña incorrectos");
+            }
+        }
+    </script>
+</body>
+</html>
